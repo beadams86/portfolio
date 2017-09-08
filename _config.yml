@@ -1,0 +1,60 @@
+# Site settings
+logo: Ben Adams
+title: Design + Dev
+email: bennettadams@hotmail.com
+url: http://bennettadams.net
+description: "I'm a User Interface and User Experience (UI/UX) Designer and Engineer, I do product and visual design as well as frontend coding (HTML, CSS, JS)."
+keywords: "UI/UX, UX, UI, User Interface, User Experience, Design, Development, FrontEnd, Front End Development"
+skills: "I write frontend code and practice user-centered design principles on both web and mobile applications in an agile environment. I have close to a decade of experience in the world of web design and am currently working at <a href='http://element84.com'>Element84</a>. "
+meta_author: Adams Ben
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 0c76f9 #0c76f9
+  primary-rgb: "38,91,226" #"128,179,255"
+  secondary: f1f1f1 #f1f1f1
+  secondary-dark: 333333 #333333
+
+# Footer settings
+footer:
+  copyright: Ben Adams
+  location: Northern Virginia
+  social: beadams86
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 12501 Weyers Cave Ct.
+  - line: Herndon, VA 20170
+
+# Build settings
+markdown: kramdown
+permalink: pretty

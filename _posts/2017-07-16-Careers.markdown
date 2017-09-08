@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 5
+date: 2017-07-16
+img: careers-card.jpg
+postimg: careers-full.jpg
+alt: SPARGO Careers Redesign
+project-date: February 2017
+client: SPARGO, Inc.
+category: UI/UX Design, Web Development
+description: <p>In order to attract the best possible job candidates you need to not only have a clean, usable careeers page, but also show why someone would want to work at your company, describe why it's unique, and explain the benefits.</p><p>I redesigned the careers page for SPARGO with a fresh layout, new graphics, and personality by working with employees and getting their personal experience and positive feedback about the company.</p>
+
+---

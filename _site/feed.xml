@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator>
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2017-09-08T16:17:04-04:00</updated>
+  <id>http://localhost:4000/</id>
+
+  
+    <title type="html">Design + Dev</title>
+  
+
+  
+    <subtitle>I'm a User Interface and User Experience (UI/UX) Designer and Engineer, I do product and visual design as well as frontend coding (HTML, CSS, JS).</subtitle>
+  
+
+  
+
+  
+  
+    <entry>
+      <title type="html">Life Preserver Mobile App</title>
+      <link href="http://localhost:4000/ui/ux%20design,%20mobile%20app%20development/2017/09/07/LifePreserver/" rel="alternate" type="text/html" title="Life Preserver Mobile App" />
+      <published>2017-09-07T00:00:00-04:00</published>
+      <updated>2017-09-07T00:00:00-04:00</updated>
+      <id>http://localhost:4000/ui/ux%20design,%20mobile%20app%20development/2017/09/07/LifePreserver</id>
+      <content type="html" xml:base="http://localhost:4000/ui/ux%20design,%20mobile%20app%20development/2017/09/07/LifePreserver/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="UI/UX Design, Mobile App Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">SPARGO Rebrand</title>
+      <link href="http://localhost:4000/ui/ux%20design,%20web%20development/2017/08/18/SpargoInc/" rel="alternate" type="text/html" title="SPARGO Rebrand" />
+      <published>2017-08-18T00:00:00-04:00</published>
+      <updated>2017-08-18T00:00:00-04:00</updated>
+      <id>http://localhost:4000/ui/ux%20design,%20web%20development/2017/08/18/SpargoInc</id>
+      <content type="html" xml:base="http://localhost:4000/ui/ux%20design,%20web%20development/2017/08/18/SpargoInc/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="UI/UX Design, Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Universal Style Guide</title>
+      <link href="http://localhost:4000/ui/ux%20design/2017/08/14/StyleGuide/" rel="alternate" type="text/html" title="Universal Style Guide" />
+      <published>2017-08-14T00:00:00-04:00</published>
+      <updated>2017-08-14T00:00:00-04:00</updated>
+      <id>http://localhost:4000/ui/ux%20design/2017/08/14/StyleGuide</id>
+      <content type="html" xml:base="http://localhost:4000/ui/ux%20design/2017/08/14/StyleGuide/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="UI/UX Design" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">SPARGO Product Showcase</title>
+      <link href="http://localhost:4000/ui/ux%20design,%20web%20development/2017/08/10/SPARGOFeatures/" rel="alternate" type="text/html" title="SPARGO Product Showcase" />
+      <published>2017-08-10T00:00:00-04:00</published>
+      <updated>2017-08-10T00:00:00-04:00</updated>
+      <id>http://localhost:4000/ui/ux%20design,%20web%20development/2017/08/10/SPARGOFeatures</id>
+      <content type="html" xml:base="http://localhost:4000/ui/ux%20design,%20web%20development/2017/08/10/SPARGOFeatures/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="UI/UX Design, Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Careers</title>
+      <link href="http://localhost:4000/ui/ux%20design,%20web%20development/2017/07/16/Careers/" rel="alternate" type="text/html" title="Careers" />
+      <published>2017-07-16T00:00:00-04:00</published>
+      <updated>2017-07-16T00:00:00-04:00</updated>
+      <id>http://localhost:4000/ui/ux%20design,%20web%20development/2017/07/16/Careers</id>
+      <content type="html" xml:base="http://localhost:4000/ui/ux%20design,%20web%20development/2017/07/16/Careers/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="UI/UX Design, Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Registration</title>
+      <link href="http://localhost:4000/web%20development/2014/07/16/registration/" rel="alternate" type="text/html" title="Registration" />
+      <published>2014-07-16T00:00:00-04:00</published>
+      <updated>2014-07-16T00:00:00-04:00</updated>
+      <id>http://localhost:4000/web%20development/2014/07/16/registration</id>
+      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/16/registration/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
