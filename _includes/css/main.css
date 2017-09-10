@@ -65,8 +65,8 @@ header {
 }
 
 header .container {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
 }
 
 header img {
@@ -123,6 +123,7 @@ header .intro-text .skills {
         font-size: 1.75em;
     }
 }
+
  .navbar-default .navbar-toggle .icon-bar{
         background-color:#333;
     }
@@ -191,6 +192,7 @@ header .intro-text .skills {
 .navbar-inverse {
     border: 0;
     padding:15px 0;
+    height:60px;
 }
 
 section {
