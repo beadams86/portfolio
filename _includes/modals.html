@@ -1,6 +1,6 @@
  <!-- Portfolio Modals -->
- {% for post in site.posts %}
-    <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+ {% for work in site.categories.works %}
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{ work.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -14,23 +14,23 @@
                         <div class="modal-body">
                             <div class="row">
                             <div class="col-lg-8 col-lg-offset-2">
-                            <h2>{{ post.title }}</h2>
-                            <p>{{ post.description }}</p>
+                            <h2>{{ work.title }}</h2>
+                            <p>{{ work.description }}</p>
                             </div>
                             </div>
-                            <img src="img/portfolio/{{ post.postimg }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <img src="img/portfolio/{{ work.postimg }}" class="img-responsive img-centered" alt="{{ work.alt }}">
                             
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong>{{ post.client }}
+                                    <strong>{{ work.client }}
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong>{{ post.project-date }}
+                                    <strong>{{ work.project-date }}
                                     </strong>
                                 </li>
                                 <li>Service:
-                                    <strong>{{ post.category }}
+                                    <strong>{{ work.category }}
                                     </strong>
                                 </li>
                             </ul>

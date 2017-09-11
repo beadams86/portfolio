@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body id="page-top" class="index">
+    {% include blognav.html %}
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+
+                <div class="bread-crumbs">
+                    <ul class="list-inline">
+                        <li><a href="../blog/">Blog</a></li>
+                        <li class="small"><i class="fa fa-chevron-right"></i></li>
+                        <li class="mute">{% for post in site.categories.blog %} {{ post.title }} {% endfor %}</li>
+                    </ul>
+                </div>
+
+            {% for post in site.categories.blog %}
+                <h2>{{ post.title }}</h2>
+                <img src="{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                <br>
+                {{ post.description }}
+            {% endfor %}
+            </div>
+        </div>
+
+        {% include contact_disqus.html %}
+
+    </div>
+    {% include footer.html %}
+    {% include js.html %}
+    </body>
+</html>
