@@ -17,7 +17,8 @@
     <link rel="canonical" href="http://bennettadams.net/registration/">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 
-    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
     <link rel="stylesheet" href="/style.css">
 
     <!-- Google verification -->
@@ -38,50 +39,28 @@
 </head>
 
     <body id="page-top" class="index">
-       <!-- Navigation -->
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html#page-top">Ben<span>Adams</span></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+          <a class="navbar-brand" href="index.html#page-top">Ben<span>Adams</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <a class="page-scroll nav-item nav-link" href="#portfolio">Portfolio</a>
+              <a class="page-scroll nav-item nav-link" href="#about">About</a>
+              <a class="page-scroll nav-item nav-link" href="#contact">Contact</a>
+              <a class="page-scroll nav-item nav-link" href="blog">Blog</a>
             </div>
+          </div>
+      </div>
+</nav>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-
-                    <li class="separated">
-                        <a href="blog">Blog</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
         <!-- Header -->
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-12">
                     <div class="intro-text">
                         <div class="intro-wrap">
                             <span class="name">Design + Dev</span>
@@ -114,7 +93,7 @@
                 
 
                     
-                        <div class="col-lg-6">
+                        <div class="col-6">
                             <div class="portfolio-item">
                                 <a href="#portfolioModal-2" class="portfolio-link" data-toggle="modal">
                                     <div class="caption">
@@ -122,7 +101,7 @@
                                             <i class="fa fa-search-plus fa-3x"></i>
                                         </div>
                                     </div>
-                                    <img src="img/portfolio/lp-card.jpg" class="img-responsive" alt="Life Preserver Mobile App">
+                                    <img src="img/portfolio/lp-card.jpg" class="img-fluid" alt="Life Preserver Mobile App">
                                 </a>
                             </div>
                         </div>
@@ -132,7 +111,7 @@
                 
 
                     
-                        <div class="col-lg-6">
+                        <div class="col-6">
                             <div class="portfolio-item">
                                 <a href="#portfolioModal-6" class="portfolio-link" data-toggle="modal">
                                     <div class="caption">
@@ -140,7 +119,7 @@
                                             <i class="fa fa-search-plus fa-3x"></i>
                                         </div>
                                     </div>
-                                    <img src="img/portfolio/spargo-card.jpg" class="img-responsive" alt="image-alt">
+                                    <img src="img/portfolio/spargo-card.jpg" class="img-fluid" alt="image-alt">
                                 </a>
                             </div>
                         </div>
@@ -150,7 +129,7 @@
                 
 
                     
-                        <div class="col-lg-12">
+                        <div class="col-12">
                             <div class="portfolio-item"> 
                                 <a href="#portfolioModal-3" class="portfolio-link" data-toggle="modal">
                                     <div class="caption">
@@ -158,7 +137,7 @@
                                             <i class="fa fa-search-plus fa-3x"></i>
                                         </div>
                                     </div>
-                                    <img src="img/portfolio/styleguide-card.jpg" class="img-responsive" alt="Universal Style Guide">
+                                    <img src="img/portfolio/styleguide-card.jpg" class="img-fluid" alt="Universal Style Guide">
                                 </a>
                             </div>
                         </div>
@@ -168,7 +147,7 @@
                 
 
                     
-                        <div class="col-lg-6">
+                        <div class="col-6">
                             <div class="portfolio-item">
                                 <a href="#portfolioModal-1" class="portfolio-link" data-toggle="modal">
                                     <div class="caption">
@@ -176,7 +155,7 @@
                                             <i class="fa fa-search-plus fa-3x"></i>
                                         </div>
                                     </div>
-                                    <img src="img/portfolio/features-card.jpg" class="img-responsive" alt="SPARGO Features Showcase">
+                                    <img src="img/portfolio/features-card.jpg" class="img-fluid" alt="SPARGO Features Showcase">
                                 </a>
                             </div>
                         </div>
@@ -186,7 +165,7 @@
                 
 
                     
-                        <div class="col-lg-6">
+                        <div class="col-6">
                             <div class="portfolio-item">
                                 <a href="#portfolioModal-5" class="portfolio-link" data-toggle="modal">
                                     <div class="caption">
@@ -194,7 +173,7 @@
                                             <i class="fa fa-search-plus fa-3x"></i>
                                         </div>
                                     </div>
-                                    <img src="img/portfolio/careers-card.jpg" class="img-responsive" alt="SPARGO Careers Redesign">
+                                    <img src="img/portfolio/careers-card.jpg" class="img-fluid" alt="SPARGO Careers Redesign">
                                 </a>
                             </div>
                         </div>
@@ -204,7 +183,7 @@
                 
 
                     
-                        <div class="col-lg-12">
+                        <div class="col-12">
                             <div class="portfolio-item"> 
                                 <a href="#portfolioModal-4" class="portfolio-link" data-toggle="modal">
                                     <div class="caption">
@@ -212,7 +191,7 @@
                                             <i class="fa fa-search-plus fa-3x"></i>
                                         </div>
                                     </div>
-                                    <img src="img/portfolio/registration-card.jpg" class="img-responsive" alt="Tradeshow Registration Redesign">
+                                    <img src="img/portfolio/registration-card.jpg" class="img-fluid" alt="Tradeshow Registration Redesign">
                                 </a>
                             </div>
                         </div>
@@ -364,7 +343,7 @@
 
      <!-- Portfolio Modals -->
  
-    <div class="portfolio-modal modal fade" id="portfolioModal-2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal" id="portfolioModal-2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -382,7 +361,7 @@
                             <p><p>My wife's grandfather had passed away the year prior and her mother was left with the burden of having to not only mourn the loss of her father, but also get all of his affairs in order. All of the paperwork, documents, passwords, accounts, had to be gathered and filed appropriately.</p><p>So my wife and I have made it our mission to design and develop a mobile application that would make this process easier and more automated.</p><p>The premise is to have a user be able to upload and store all the necessary documents for end-of-life, such as wills, bank account information, and passwords, and then send a push notification or email to a person that the user selects as their trusted next of kin.</p><p>Of course security would be a major concern with information like this, so we need to figure out how to best go about selecting a next-of-kin, how to best encrypt sensitive data, and exactly what is the minimum information someone would need to be prepared for the inevitable.</p></p>
                             </div>
                             </div>
-                            <img src="img/portfolio/lp-full.jpg" class="img-responsive img-centered" alt="Life Preserver Mobile App">
+                            <img src="img/portfolio/lp-full.jpg" class="img-fluid img-centered" alt="Life Preserver Mobile App">
                             
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -406,7 +385,7 @@
         </div>
     </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal-6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal" id="portfolioModal-6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -424,7 +403,7 @@
                             <p><p>Originally titled J. Spargo & Associates, Inc. , my most memorable and rewarding work involved me rebranding the company to what it's known as today; SPARGO. The company had been around for over 40 years, so I wanted to pay homage to the existing legacy and brand recognition, but also wanted to give the company a modern edge.</p><p>What I decided on, after meeting with management and executives, was a logo that integrated what the company is all about, the people. The colors were partially derived from the existing logo, with a small modern twist of light blue and green.</p><p>In addition to logo, I also re-designed the company's website and branding guidelines. The website uses a fresh blue, and photographs that portray it as a corporate entity, promoting a confidence in the organization. The style guide promotes consistency and a standard to be used throughout the company's presentations to promote it's fresh look.</p></p>
                             </div>
                             </div>
-                            <img src="img/portfolio/spargo-full.jpg" class="img-responsive img-centered" alt="image-alt">
+                            <img src="img/portfolio/spargo-full.jpg" class="img-fluid img-centered" alt="image-alt">
                             
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -448,7 +427,7 @@
         </div>
     </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal-3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal" id="portfolioModal-3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -466,7 +445,7 @@
                             <p><p>SPARGO relies on many different developers to stand up registration websites based on style and branding requirements relative to many different clients. In addition, there's a separate hotel reservation CFW that uses a completely different methodology and set of developers.</p><p>In order to help standardize the process and promote consistency, I created an interactive style guide for everything from colors to forms. One of the major concerns is that every client has their own branding and color schemes, so I needed to come up with a way to standardize this to some extent, while still allowing flexibility. The solution was to limit each theme to a primary, secondary, and a complimentary color, which were mostly derived from the client's existing branding.</p><p>The stylesheet driving the base theme relies on Bootstrap 3 as a base because of the development team's familiarity with it, and with the not-so-specific guidelines I've set out there's still plenty of room to customize so it can be used across many different brand guidelines.</p></p>
                             </div>
                             </div>
-                            <img src="img/portfolio/styleguide-full.jpg" class="img-responsive img-centered" alt="Universal Style Guide">
+                            <img src="img/portfolio/styleguide-full.jpg" class="img-fluid img-centered" alt="Universal Style Guide">
                             
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -490,7 +469,7 @@
         </div>
     </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal-1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal" id="portfolioModal-1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -508,7 +487,7 @@
                             <p><p>SPARGO needed a way to showcase their large library of products and features to clients and potential clients in a way that would engage the user. After meeting with the stakeholders, I decided the best way to engage the user would be with a filtering system that would allow the customer to only view products relevant to their needs. This would not only allow the user to narrow down their products by what's relevant to them, but added interactivity, hopefully attracting the user to stay and browse.</p><p><strong>Previously,</strong> the website was using an icon library, as good as it was for most tasks, it didn't come close to depicting the very specific products and features though, so I created an icon set that could be used for this project, as well as for other corporate needs down the road.</p><p>It took some time to nail down an effective filtering system for such a unique item, but what I decided upon was a two-step filtering process, one being more precise than the other and targeting different attributed. Additionally, I implemented a color-coded system that matched each category with a unique vibrant color.</p>This project was a blast because not only was I able to use my creativity, but I also had the ability to pick up some experience in a new front-end framework.</p>
                             </div>
                             </div>
-                            <img src="img/portfolio/features-full.jpg" class="img-responsive img-centered" alt="SPARGO Features Showcase">
+                            <img src="img/portfolio/features-full.jpg" class="img-fluid img-centered" alt="SPARGO Features Showcase">
                             
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -532,7 +511,7 @@
         </div>
     </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal-5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal" id="portfolioModal-5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -550,7 +529,7 @@
                             <p><p>In order to attract the best possible job candidates you need to not only have a clean, usable careeers page, but also show why someone would want to work at your company, describe why it's unique, and explain the benefits.</p><p>I redesigned the careers page for SPARGO with a fresh layout, new graphics, and personality by working with employees and getting their personal experience and positive feedback about the company.</p></p>
                             </div>
                             </div>
-                            <img src="img/portfolio/careers-full.jpg" class="img-responsive img-centered" alt="SPARGO Careers Redesign">
+                            <img src="img/portfolio/careers-full.jpg" class="img-fluid img-centered" alt="SPARGO Careers Redesign">
                             
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -574,7 +553,7 @@
         </div>
     </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal-4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal" id="portfolioModal-4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -592,7 +571,7 @@
                             <p><p>The registration process is extremely important at all tradeshows, users come from all walks of life and use any and all devices, from Android to iPhone, Windows to Mac.</p><p>In order to create a consistent experience I re-designed the registration process from the beginning to end by working with managers from the registration department and dissecting, cleaning up, and rebuilding the registration process.</p></p>
                             </div>
                             </div>
-                            <img src="img/portfolio/registration-full.png" class="img-responsive img-centered" alt="Tradeshow Registration Redesign">
+                            <img src="img/portfolio/registration-full.png" class="img-fluid img-centered" alt="Tradeshow Registration Redesign">
                             
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -617,17 +596,18 @@
     </div>
 
      <!-- jQuery Version 1.11.0 -->
-    <script src="/js/jquery-1.11.0.js"></script>
-
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
     <!-- Plugin JavaScript -->
     <script src="/js/jquery.easing.min.js"></script>
-    <script src="/js/classie.js"></script>
 
     <!-- Contact Form JavaScript -->
-    <script src="/js/jqBootstrapValidation.js"></script>
     
     <script src="/js/contact_me_static.js"></script>
     

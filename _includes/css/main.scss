@@ -11,21 +11,8 @@ body {
     font-weight:300;
 }
 
-.row.is-flex {
-  display: flex;
-  flex-wrap: wrap;
-}
-.row.is-flex > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
-}
-p {
-    font-size: 20px;
-    margin-bottom:30px;
-}
-
-p.small {
-    font-size: 16px;
+.small {
+    font-size: 0.8em;
 }
 
 a,
@@ -215,90 +202,49 @@ header .intro-text .btn{
     font-size:0.9em;
     }
 }
+.navbar-light{
+    padding-left:0;
+}
 
-
- .navbar-default .navbar-toggle .icon-bar{
-        background-color:#{{ site.color.secondary-dark }};
-        width:30px;
-        height:3px;
+.navbar-light .navbar-nav .nav-link{
+    padding-left:1em;
+    padding-right:1em;
+    font-weight:700;
+    color:#{{site.color.secondary-dark}}
+}
+@media(min-width:768px){
+    .navbar-light{
+    padding:1em 0;
     }
-    .navbar-default .navbar-brand{
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color:#ccc;
+}
+
+    .navbar-light .navbar-brand{
         padding:15px;
         background:#333;
-        color:#999;
+        color:#ccc;
         line-height:22px;
         height:50px;
-        margin:5px 15px;
         font-weight:300;
     }
 
-    .navbar-default .navbar-brand span{
+    .navbar-brand span{
         color:#fff;
         font-weight:700;
     }
-
-    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
-        background:#333;
-        color:#999;
-    }
-@media(min-width:768px) {
-    .navbar{
-        margin-bottom:0;
-        transition:all 0.3s;
-    }
-
-    .container>.navbar-header{
-        margin-left:15px;
-        margin-right:15px;
-    }
-
-    .navbar-brand img{
-        height:60px;
-        width:auto;
-    }
-    .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
-    }
-
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-
-}
-
-.navbar {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-}
 
 .navbar a:focus {
     outline: 0;
 }
 
-.navbar .navbar-nav {
-    letter-spacing: 1px;
-}
-
-.navbar .navbar-nav li a:focus {
-    outline: 0;
-}
-
-.navbar-default,
-.navbar-inverse {
-    border-radius:0;
-    border:0;
-    padding:0;
-    padding-top:30px;
-    padding-bottom:15px;
-    height:90px;
-}
-
-.navbar-default.blog-nav{
+.navbar-light.blog-nav{
     padding-top:15px;
 }
+
 @media(max-width:767px){
-    .navbar-default.blog-nav{
+    .navbar-light.blog-nav{
         padding:5px 0;
     }
 }
@@ -348,34 +294,26 @@ ul li .label{
     .btn-primary{
         margin:0 auto;
     }
-    .navbar-default{
-        padding:5px 0;
-        padding-top:10px;
-        height:50px;
-        margin-bottom:0;
+    .navbar-light{
+    padding-bottom:0;
     }
-
-    .navbar-default .navbar-brand{
+    .navbar-brand{
         height:40px;
         padding:10px;
         line-height:20px;
         margin:8px 15px;
     }
 
-    .navbar-default .navbar-collapse{
+    .navbar-collapse{
         background:#fff;
         position:absolute;
+        top:80px;
+        left:0;
+        right:0;
         z-index:999;
         width:100%;
         box-shadow:rgba(0,0,0,0.5) 50px 50px 50px;
-    }
-
-    .navbar-toggle{
-        margin:8px 15px;
-        border:none;
-    }
-    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-        background:#fff;
+        padding:15px 30px;
     }
 
 }
@@ -440,25 +378,6 @@ ul li .label{
 
 }
 
-.btn-outline {
-    margin-top: 15px;
-    border: solid 2px #{{ site.color.primary }};
-    color: #{{ site.color.primary }};
-    background: 0 0;
-    transition: all .3s ease-in-out;
-    border-radius:0px;
-}
-
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
-    border-radius:none;
-    border: solid 2px #{{ site.color.primary }};
-    color: #{{ site.color.primary }};
-    background: #fff;
-}
-
 .form-control{
     color:#333;
 }
@@ -513,9 +432,6 @@ ul li .label{
 
 .floating-label-form-group-with-focus label {
     color: #{{ site.color.primary }};
-}
-
-form .row:first-child .floating-label-form-group {
 }
 
 footer {
@@ -647,15 +563,6 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
-.navbar-default .navbar-nav > li > a{
-    color:#{{ site.color.secondary-dark }};
-}
-.navbar-default .navbar-nav>.active>a {
-    color:#{{ site.color.primary }};
-    background-color: #{{ site.color.secondary }} !important;
-    border-bottom:1px solid #{{site.color.primary}}
-}
-
 /* Blog stuff */
 .bread-crumbs{
     padding:15px 0;
@@ -672,7 +579,6 @@ footer .footer-below {
     box-shadow: 0 0 0 1px #e4e4e4, 0 0 3rem 0 rgba(0,0,0,0.066);
     border-radius:4px;
     margin-bottom:30px;
-    padding-bottom:30px;
 }
 
 .blog-post:hover{
@@ -682,12 +588,17 @@ footer .footer-below {
     color:#{{ site.color.secondary-dark }};
 }
 
+.blog-post h4{
+    margin-top:15px;
+}
+
 .blog-post-footer{
     position:absolute;
     height:30px;
-    bottom:30px;
+    bottom:5px;
     left:30px;
     right:30px;
+    font-size:0.8em;
 }
 
 .blog-post p{
@@ -743,23 +654,15 @@ footer .footer-below {
 }
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
-.modal.fade{
+.modal{
     animation: 0.3s ease-out 0s 1 slideInFromTop;
 }
-.modal.fade.in {
+.modal.show {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
     animation: 0.3s ease-out 0s 1 slideInFromBottom;
 }
 
-@keyframes slideInFromRight {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
 
 @keyframes slideInFromBottom {
   0% {

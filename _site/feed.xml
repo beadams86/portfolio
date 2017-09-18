@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator>
-  <link href="http://bennettadams.net/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://bennettadams.net/" rel="alternate" type="text/html" />
-  <updated>2017-09-18T09:36:19-04:00</updated>
-  <id>http://bennettadams.net/</id>
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2017-09-18T16:16:46-04:00</updated>
+  <id>http://localhost:4000/</id>
 
   
     <title type="html">Design + Dev</title>
@@ -21,11 +21,11 @@
   
     <entry>
       <title type="html">I have a side project, and so should you!</title>
-      <link href="http://bennettadams.net/SideProject/" rel="alternate" type="text/html" title="I have a side project, and so should you!" />
+      <link href="http://localhost:4000/SideProject/" rel="alternate" type="text/html" title="I have a side project, and so should you!" />
       <published>2017-09-12T00:00:00-04:00</published>
       <updated>2017-09-12T00:00:00-04:00</updated>
-      <id>http://bennettadams.net/SideProject</id>
-      <content type="html" xml:base="http://bennettadams.net/SideProject/">&lt;h4&gt;Intro&lt;/h4&gt;
+      <id>http://localhost:4000/SideProject</id>
+      <content type="html" xml:base="http://localhost:4000/SideProject/">&lt;h4&gt;Intro&lt;/h4&gt;
 &lt;p&gt;I know a lot of talented designers and developers, and every single one of them has one thing in common; they're regularly working on a side project. It doesn't matter the type of project, be it a blog, starter project or something for the neighborhood taco joint, they're all beneficial to you in many different ways.&lt;/p&gt;
 
 &lt;h4&gt;What is a side project?&lt;/h4&gt;
@@ -69,11 +69,11 @@
   
     <entry>
       <title type="html">UX vs. UI vs. IA vs. IXD</title>
-      <link href="http://bennettadams.net/UXvsUIvsIA/" rel="alternate" type="text/html" title="UX vs. UI vs. IA vs. IXD" />
+      <link href="http://localhost:4000/UXvsUIvsIA/" rel="alternate" type="text/html" title="UX vs. UI vs. IA vs. IXD" />
       <published>2017-09-10T00:00:00-04:00</published>
       <updated>2017-09-10T00:00:00-04:00</updated>
-      <id>http://bennettadams.net/UXvsUIvsIA</id>
-      <content type="html" xml:base="http://bennettadams.net/UXvsUIvsIA/">&lt;h4&gt;Intro&lt;/h4&gt;
+      <id>http://localhost:4000/UXvsUIvsIA</id>
+      <content type="html" xml:base="http://localhost:4000/UXvsUIvsIA/">&lt;h4&gt;Intro&lt;/h4&gt;
 &lt;p&gt;Once upon a time, if you said the word “design”, the odds were overwhelmingly likely you were talking about graphic design. But nowadays, the digital world is becoming increasingly more complicated and a lot of new job positions appearing, which lead to confusion for people outside or new to the design industry. Here’s a quick overview on the four different primary forms of design to help you understand what they mean.&lt;/p&gt;
 
 &lt;h4&gt;UX (User Experience Design)&lt;/h4&gt;
@@ -123,11 +123,11 @@ Input Controls: buttons, text fields, checkboxes, radio buttons, dropdown lists,
   
     <entry>
       <title type="html">Life Preserver Mobile App</title>
-      <link href="http://bennettadams.net/LifePreserver/" rel="alternate" type="text/html" title="Life Preserver Mobile App" />
+      <link href="http://localhost:4000/LifePreserver/" rel="alternate" type="text/html" title="Life Preserver Mobile App" />
       <published>2017-09-07T00:00:00-04:00</published>
       <updated>2017-09-07T00:00:00-04:00</updated>
-      <id>http://bennettadams.net/LifePreserver</id>
-      <content type="html" xml:base="http://bennettadams.net/LifePreserver/"></content>
+      <id>http://localhost:4000/LifePreserver</id>
+      <content type="html" xml:base="http://localhost:4000/LifePreserver/"></content>
 
       
       
@@ -157,11 +157,11 @@ Input Controls: buttons, text fields, checkboxes, radio buttons, dropdown lists,
   
     <entry>
       <title type="html">SPARGO Rebrand</title>
-      <link href="http://bennettadams.net/SpargoInc/" rel="alternate" type="text/html" title="SPARGO Rebrand" />
+      <link href="http://localhost:4000/SpargoInc/" rel="alternate" type="text/html" title="SPARGO Rebrand" />
       <published>2017-08-18T00:00:00-04:00</published>
       <updated>2017-08-18T00:00:00-04:00</updated>
-      <id>http://bennettadams.net/SpargoInc</id>
-      <content type="html" xml:base="http://bennettadams.net/SpargoInc/"></content>
+      <id>http://localhost:4000/SpargoInc</id>
+      <content type="html" xml:base="http://localhost:4000/SpargoInc/"></content>
 
       
       
@@ -191,11 +191,11 @@ Input Controls: buttons, text fields, checkboxes, radio buttons, dropdown lists,
   
     <entry>
       <title type="html">Universal Style Guide</title>
-      <link href="http://bennettadams.net/StyleGuide/" rel="alternate" type="text/html" title="Universal Style Guide" />
+      <link href="http://localhost:4000/StyleGuide/" rel="alternate" type="text/html" title="Universal Style Guide" />
       <published>2017-08-14T00:00:00-04:00</published>
       <updated>2017-08-14T00:00:00-04:00</updated>
-      <id>http://bennettadams.net/StyleGuide</id>
-      <content type="html" xml:base="http://bennettadams.net/StyleGuide/"></content>
+      <id>http://localhost:4000/StyleGuide</id>
+      <content type="html" xml:base="http://localhost:4000/StyleGuide/"></content>
 
       
       
@@ -225,11 +225,11 @@ Input Controls: buttons, text fields, checkboxes, radio buttons, dropdown lists,
   
     <entry>
       <title type="html">SPARGO Product Showcase</title>
-      <link href="http://bennettadams.net/SPARGOFeatures/" rel="alternate" type="text/html" title="SPARGO Product Showcase" />
+      <link href="http://localhost:4000/SPARGOFeatures/" rel="alternate" type="text/html" title="SPARGO Product Showcase" />
       <published>2017-08-10T00:00:00-04:00</published>
       <updated>2017-08-10T00:00:00-04:00</updated>
-      <id>http://bennettadams.net/SPARGOFeatures</id>
-      <content type="html" xml:base="http://bennettadams.net/SPARGOFeatures/"></content>
+      <id>http://localhost:4000/SPARGOFeatures</id>
+      <content type="html" xml:base="http://localhost:4000/SPARGOFeatures/"></content>
 
       
       
@@ -259,11 +259,11 @@ Input Controls: buttons, text fields, checkboxes, radio buttons, dropdown lists,
   
     <entry>
       <title type="html">Careers</title>
-      <link href="http://bennettadams.net/Careers/" rel="alternate" type="text/html" title="Careers" />
+      <link href="http://localhost:4000/Careers/" rel="alternate" type="text/html" title="Careers" />
       <published>2017-07-16T00:00:00-04:00</published>
       <updated>2017-07-16T00:00:00-04:00</updated>
-      <id>http://bennettadams.net/Careers</id>
-      <content type="html" xml:base="http://bennettadams.net/Careers/"></content>
+      <id>http://localhost:4000/Careers</id>
+      <content type="html" xml:base="http://localhost:4000/Careers/"></content>
 
       
       
@@ -293,11 +293,11 @@ Input Controls: buttons, text fields, checkboxes, radio buttons, dropdown lists,
   
     <entry>
       <title type="html">Registration</title>
-      <link href="http://bennettadams.net/registration/" rel="alternate" type="text/html" title="Registration" />
+      <link href="http://localhost:4000/registration/" rel="alternate" type="text/html" title="Registration" />
       <published>2014-07-16T00:00:00-04:00</published>
       <updated>2014-07-16T00:00:00-04:00</updated>
-      <id>http://bennettadams.net/registration</id>
-      <content type="html" xml:base="http://bennettadams.net/registration/"></content>
+      <id>http://localhost:4000/registration</id>
+      <content type="html" xml:base="http://localhost:4000/registration/"></content>
 
       
       

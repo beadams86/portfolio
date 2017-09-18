@@ -1,6 +1,6 @@
  <!-- Portfolio Modals -->
  {% for work in site.categories.works %}
-    <div class="portfolio-modal modal fade" id="portfolioModal-{{ work.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal" id="portfolioModal-{{ work.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -18,7 +18,7 @@
                             <p>{{ work.description }}</p>
                             </div>
                             </div>
-                            <img src="img/portfolio/{{ work.postimg }}" class="img-responsive img-centered" alt="{{ work.alt }}">
+                            <img src="img/portfolio/{{ work.postimg }}" class="img-fluid img-centered" alt="{{ work.alt }}">
                             
                             <ul class="list-inline item-details">
                                 <li>Client:
