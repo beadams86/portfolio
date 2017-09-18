@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator>
-  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2017-09-11T16:36:44-04:00</updated>
-  <id>http://localhost:4000/</id>
+  <link href="http://bennettadams.net/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://bennettadams.net/" rel="alternate" type="text/html" />
+  <updated>2017-09-18T09:36:19-04:00</updated>
+  <id>http://bennettadams.net/</id>
 
   
     <title type="html">Design + Dev</title>
@@ -21,11 +21,25 @@
   
     <entry>
       <title type="html">I have a side project, and so should you!</title>
-      <link href="http://localhost:4000/blog/ui/ux%20design/2017/09/11/TestPost/" rel="alternate" type="text/html" title="I have a side project, and so should you!" />
-      <published>2017-09-11T00:00:00-04:00</published>
-      <updated>2017-09-11T00:00:00-04:00</updated>
-      <id>http://localhost:4000/blog/ui/ux%20design/2017/09/11/TestPost</id>
-      <content type="html" xml:base="http://localhost:4000/blog/ui/ux%20design/2017/09/11/TestPost/"></content>
+      <link href="http://bennettadams.net/SideProject/" rel="alternate" type="text/html" title="I have a side project, and so should you!" />
+      <published>2017-09-12T00:00:00-04:00</published>
+      <updated>2017-09-12T00:00:00-04:00</updated>
+      <id>http://bennettadams.net/SideProject</id>
+      <content type="html" xml:base="http://bennettadams.net/SideProject/">&lt;h4&gt;Intro&lt;/h4&gt;
+&lt;p&gt;I know a lot of talented designers and developers, and every single one of them has one thing in common; they're regularly working on a side project. It doesn't matter the type of project, be it a blog, starter project or something for the neighborhood taco joint, they're all beneficial to you in many different ways.&lt;/p&gt;
+
+&lt;h4&gt;What is a side project?&lt;/h4&gt;
+&lt;p&gt;A side project is any sort of project that is undertaken outside of your standard work commitments. There's no real requirements, they can vary from fun and silly, all the way to a secondary job that you hope to turn into something big one day.&lt;/p&gt;
+
+&lt;h4&gt;The Benefits&lt;/h4&gt;
+&lt;p&gt;It's been shown that creative hobbies make people more helpful, collaborative, and creative in their job performance, so off the bat it's even possible to spin a side project as a positive to your employer! But logistics aside, employees who had creative hobbies felt more relaxed and in control outside of work.&lt;/p&gt;
+&lt;p&gt;On a slightly more obvious level, a side project also helps to facilitate learning and even experience by tackling new things you wouldn't get a chance to do in your 9-5. This can in turn benefit your career, either by growing your portfolio or just by being able to say you have experience in a subject you didn't before. This portfolio and blog for example allowed me to learn Jekyll and brush up on my writing. From now on I can feel more comfortable discussing either topic in a professional setting, not to mention the indirect positives that are gained with the learning experience.&lt;/p&gt;
+
+&lt;h4&gt;Where to start&lt;/h4&gt;
+&lt;p&gt;The best place to start would be something that you're passionate about. If it's something that you truly care about it will keep you motivated and be that much more rewarding along the way. It doesn't make a lot of sense to spend your free time doing something that you couldn't care less about, regardless of the professional benefits.&lt;/p&gt;
+&lt;p&gt;Another way to make the side project even more fun and rewarding is to include friends, or even co-workers. This will not only help bring a fresh perspective to the project, but help with motivation, two minds is always greater than one.&lt;/p&gt;
+&lt;h4&gt;Get movin'!&lt;/h4&gt;
+&lt;p&gt;So get out there and finally get moving on that mobile app idea you've been thinking about or writing that article on Medium you've noticed no one is talking about!&lt;/p&gt;</content>
 
       
       
@@ -40,11 +54,67 @@
       </author>
 
       
-        <category term="UI/UX Design" />
+        <category term="Projects" />
       
 
       
 
+      
+        <summary type="html">Intro I know a lot of talented designers and developers, and every single one of them has one thing in common; they're regularly working on a side project. It doesn't matter the type of project, be it a blog, starter project or something for the neighborhood taco joint, they're all beneficial to you in many different ways.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">UX vs. UI vs. IA vs. IXD</title>
+      <link href="http://bennettadams.net/UXvsUIvsIA/" rel="alternate" type="text/html" title="UX vs. UI vs. IA vs. IXD" />
+      <published>2017-09-10T00:00:00-04:00</published>
+      <updated>2017-09-10T00:00:00-04:00</updated>
+      <id>http://bennettadams.net/UXvsUIvsIA</id>
+      <content type="html" xml:base="http://bennettadams.net/UXvsUIvsIA/">&lt;h4&gt;Intro&lt;/h4&gt;
+&lt;p&gt;Once upon a time, if you said the word “design”, the odds were overwhelmingly likely you were talking about graphic design. But nowadays, the digital world is becoming increasingly more complicated and a lot of new job positions appearing, which lead to confusion for people outside or new to the design industry. Here’s a quick overview on the four different primary forms of design to help you understand what they mean.&lt;/p&gt;
+
+&lt;h4&gt;UX (User Experience Design)&lt;/h4&gt;
+&lt;p&gt;As is found on Wikipedia “User experience design (UXD, UED or XD) is the process of enhancing user satisfaction by improving the usability, accessibility, and pleasure provided in the interaction between the user and the product. User experience design encompasses traditional human–computer interaction (HCI) design, and extends it by addressing all aspects of a product or service as perceived by users.&lt;/p&gt;
+&lt;p&gt;UX designer is the person in charge with creating the products “logic” via wireframes and prototypes via software like Axure, JustInMind, Mockplus etc. Communication is one of the critical skills of the UX designers. They also conduct research, competitive analysis at the beginning as well as usability testing and A/B testing after the project has launched. UX designers are primarily concerned with how the product feels.&lt;/p&gt;
+
+&lt;h4&gt;UI Design (User Interface Design)&lt;/h4&gt;
+&lt;p&gt;Author and founder of Adaptive Path — a user experience consultancy, Jesse James Garrett, defines interface design as being all about selecting the right interface elements — like text, buttons, text fields, color coded lists, etc — for the task the user is trying to accomplish and arranging them on the screen in a way that will be readily understood and easily used. The goal is make the user’s interaction as efficient and simple as possible.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Interface elements include but are not limited to:&lt;/strong&gt;&lt;br&gt;
+Input Controls: buttons, text fields, checkboxes, radio buttons, dropdown lists, list boxes, toggles, date field&lt;/p&gt;
+
+&lt;h4&gt;IA (Information Architecture)&lt;/h4&gt;
+&lt;p&gt;Information architecture (IA) involves the way a website/app is structured and how the content is organized. The goal is to help users find information and complete tasks. “In other words, information architecture is the creation of a structure for a website, application, or other project, that allows us to understand where we are as users, and where the information we want is in relation to our position. Information architecture results in the creation of site maps, hierarchies, categorizations, navigation, and metadata. When a content strategist begins separating content and dividing it into categories, she is practicing information architecture. &lt;/p&gt;
+
+&lt;h4&gt;IxD (Interaction Design)&lt;/h4&gt;
+&lt;p&gt;IxD designer is the people in charge of the websites/apps moving elements &amp; interactions. If you’ve seen a cool animation on a website or app, that made you say wow or that is really cool, that’s the stuff motion designers do.&lt;/p&gt;
+&lt;p&gt;In an Interaction Designer role, you’ll tackle complex tasks and transform them into intuitive, accessible and easy-to-use designs for billions of people around the world-from the first-time user to the sophisticated expert. &lt;/p&gt;
+
+&lt;h4&gt;In conclusion...&lt;/h4&gt;
+&lt;p&gt;Last but not least, the boundaries between each of these various design roles are very fluid. The IxD is quite similar to UX design in it’s approach as it’s part of the UX design cycle, so in some cases these roles may have a lot of overlap.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Vincent Xia</name>
+        
+        
+      </author>
+
+      
+        <category term="Design" />
+      
+
+      
+
+      
+        <summary type="html">Intro Once upon a time, if you said the word “design”, the odds were overwhelmingly likely you were talking about graphic design. But nowadays, the digital world is becoming increasingly more complicated and a lot of new job positions appearing, which lead to confusion for people outside or new to the design industry. Here’s a quick overview on the four different primary forms of design to help you understand what they mean.</summary>
       
 
       
@@ -53,11 +123,11 @@
   
     <entry>
       <title type="html">Life Preserver Mobile App</title>
-      <link href="http://localhost:4000/works/ui/ux%20design,%20mobile%20app%20development/2017/09/07/LifePreserver/" rel="alternate" type="text/html" title="Life Preserver Mobile App" />
+      <link href="http://bennettadams.net/LifePreserver/" rel="alternate" type="text/html" title="Life Preserver Mobile App" />
       <published>2017-09-07T00:00:00-04:00</published>
       <updated>2017-09-07T00:00:00-04:00</updated>
-      <id>http://localhost:4000/works/ui/ux%20design,%20mobile%20app%20development/2017/09/07/LifePreserver</id>
-      <content type="html" xml:base="http://localhost:4000/works/ui/ux%20design,%20mobile%20app%20development/2017/09/07/LifePreserver/"></content>
+      <id>http://bennettadams.net/LifePreserver</id>
+      <content type="html" xml:base="http://bennettadams.net/LifePreserver/"></content>
 
       
       
@@ -87,11 +157,11 @@
   
     <entry>
       <title type="html">SPARGO Rebrand</title>
-      <link href="http://localhost:4000/works/ui/ux%20design,%20web%20development/2017/08/18/SpargoInc/" rel="alternate" type="text/html" title="SPARGO Rebrand" />
+      <link href="http://bennettadams.net/SpargoInc/" rel="alternate" type="text/html" title="SPARGO Rebrand" />
       <published>2017-08-18T00:00:00-04:00</published>
       <updated>2017-08-18T00:00:00-04:00</updated>
-      <id>http://localhost:4000/works/ui/ux%20design,%20web%20development/2017/08/18/SpargoInc</id>
-      <content type="html" xml:base="http://localhost:4000/works/ui/ux%20design,%20web%20development/2017/08/18/SpargoInc/"></content>
+      <id>http://bennettadams.net/SpargoInc</id>
+      <content type="html" xml:base="http://bennettadams.net/SpargoInc/"></content>
 
       
       
@@ -121,11 +191,11 @@
   
     <entry>
       <title type="html">Universal Style Guide</title>
-      <link href="http://localhost:4000/works/ui/ux%20design/2017/08/14/StyleGuide/" rel="alternate" type="text/html" title="Universal Style Guide" />
+      <link href="http://bennettadams.net/StyleGuide/" rel="alternate" type="text/html" title="Universal Style Guide" />
       <published>2017-08-14T00:00:00-04:00</published>
       <updated>2017-08-14T00:00:00-04:00</updated>
-      <id>http://localhost:4000/works/ui/ux%20design/2017/08/14/StyleGuide</id>
-      <content type="html" xml:base="http://localhost:4000/works/ui/ux%20design/2017/08/14/StyleGuide/"></content>
+      <id>http://bennettadams.net/StyleGuide</id>
+      <content type="html" xml:base="http://bennettadams.net/StyleGuide/"></content>
 
       
       
@@ -155,11 +225,11 @@
   
     <entry>
       <title type="html">SPARGO Product Showcase</title>
-      <link href="http://localhost:4000/works/ui/ux%20design,%20web%20development/2017/08/10/SPARGOFeatures/" rel="alternate" type="text/html" title="SPARGO Product Showcase" />
+      <link href="http://bennettadams.net/SPARGOFeatures/" rel="alternate" type="text/html" title="SPARGO Product Showcase" />
       <published>2017-08-10T00:00:00-04:00</published>
       <updated>2017-08-10T00:00:00-04:00</updated>
-      <id>http://localhost:4000/works/ui/ux%20design,%20web%20development/2017/08/10/SPARGOFeatures</id>
-      <content type="html" xml:base="http://localhost:4000/works/ui/ux%20design,%20web%20development/2017/08/10/SPARGOFeatures/"></content>
+      <id>http://bennettadams.net/SPARGOFeatures</id>
+      <content type="html" xml:base="http://bennettadams.net/SPARGOFeatures/"></content>
 
       
       
@@ -189,11 +259,11 @@
   
     <entry>
       <title type="html">Careers</title>
-      <link href="http://localhost:4000/works/ui/ux%20design,%20web%20development/2017/07/16/Careers/" rel="alternate" type="text/html" title="Careers" />
+      <link href="http://bennettadams.net/Careers/" rel="alternate" type="text/html" title="Careers" />
       <published>2017-07-16T00:00:00-04:00</published>
       <updated>2017-07-16T00:00:00-04:00</updated>
-      <id>http://localhost:4000/works/ui/ux%20design,%20web%20development/2017/07/16/Careers</id>
-      <content type="html" xml:base="http://localhost:4000/works/ui/ux%20design,%20web%20development/2017/07/16/Careers/"></content>
+      <id>http://bennettadams.net/Careers</id>
+      <content type="html" xml:base="http://bennettadams.net/Careers/"></content>
 
       
       
@@ -223,11 +293,11 @@
   
     <entry>
       <title type="html">Registration</title>
-      <link href="http://localhost:4000/works/web%20development/2014/07/16/registration/" rel="alternate" type="text/html" title="Registration" />
+      <link href="http://bennettadams.net/registration/" rel="alternate" type="text/html" title="Registration" />
       <published>2014-07-16T00:00:00-04:00</published>
       <updated>2014-07-16T00:00:00-04:00</updated>
-      <id>http://localhost:4000/works/web%20development/2014/07/16/registration</id>
-      <content type="html" xml:base="http://localhost:4000/works/web%20development/2014/07/16/registration/"></content>
+      <id>http://bennettadams.net/registration</id>
+      <content type="html" xml:base="http://bennettadams.net/registration/"></content>
 
       
       

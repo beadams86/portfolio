@@ -1,0 +1,33 @@
+---
+layout: post
+date: 2017-09-10
+img: https://cdn-images-1.medium.com/max/1600/1*4k03XMteIunA6QsIwBkEiA.jpeg
+alt: UX vs. UI vs. IA vs. IXD
+title: UX vs. UI vs. IA vs. IXD
+subtitle: Here’s a quick overview on the four different primary forms of design to help you understand what they mean.
+author: Vincent Xia
+category: Design
+
+---
+
+<h4>Intro</h4>
+<p>Once upon a time, if you said the word “design”, the odds were overwhelmingly likely you were talking about graphic design. But nowadays, the digital world is becoming increasingly more complicated and a lot of new job positions appearing, which lead to confusion for people outside or new to the design industry. Here’s a quick overview on the four different primary forms of design to help you understand what they mean.</p>
+
+<h4>UX (User Experience Design)</h4>
+<p>As is found on Wikipedia “User experience design (UXD, UED or XD) is the process of enhancing user satisfaction by improving the usability, accessibility, and pleasure provided in the interaction between the user and the product. User experience design encompasses traditional human–computer interaction (HCI) design, and extends it by addressing all aspects of a product or service as perceived by users.</p>
+<p>UX designer is the person in charge with creating the products “logic” via wireframes and prototypes via software like Axure, JustInMind, Mockplus etc. Communication is one of the critical skills of the UX designers. They also conduct research, competitive analysis at the beginning as well as usability testing and A/B testing after the project has launched. UX designers are primarily concerned with how the product feels.</p>
+
+<h4>UI Design (User Interface Design)</h4>
+<p>Author and founder of Adaptive Path — a user experience consultancy, Jesse James Garrett, defines interface design as being all about selecting the right interface elements — like text, buttons, text fields, color coded lists, etc — for the task the user is trying to accomplish and arranging them on the screen in a way that will be readily understood and easily used. The goal is make the user’s interaction as efficient and simple as possible.</p>
+<p><strong>Interface elements include but are not limited to:</strong><br>
+Input Controls: buttons, text fields, checkboxes, radio buttons, dropdown lists, list boxes, toggles, date field</p>
+
+<h4>IA (Information Architecture)</h4>
+<p>Information architecture (IA) involves the way a website/app is structured and how the content is organized. The goal is to help users find information and complete tasks. “In other words, information architecture is the creation of a structure for a website, application, or other project, that allows us to understand where we are as users, and where the information we want is in relation to our position. Information architecture results in the creation of site maps, hierarchies, categorizations, navigation, and metadata. When a content strategist begins separating content and dividing it into categories, she is practicing information architecture. </p>
+
+<h4>IxD (Interaction Design)</h4>
+<p>IxD designer is the people in charge of the websites/apps moving elements & interactions. If you’ve seen a cool animation on a website or app, that made you say wow or that is really cool, that’s the stuff motion designers do.</p>
+<p>In an Interaction Designer role, you’ll tackle complex tasks and transform them into intuitive, accessible and easy-to-use designs for billions of people around the world-from the first-time user to the sophisticated expert. </p>
+
+<h4>In conclusion...</h4>
+<p>Last but not least, the boundaries between each of these various design roles are very fluid. The IxD is quite similar to UX design in it’s approach as it’s part of the UX design cycle, so in some cases these roles may have a lot of overlap.</p>

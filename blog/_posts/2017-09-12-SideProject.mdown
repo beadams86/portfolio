@@ -1,0 +1,26 @@
+---
+layout: post
+date: 2017-09-12
+img: https://images.pexels.com/photos/7377/startup-photos.jpg?w=1260&h=750&auto=compress&cs=tinysrgb
+alt: Why Side Projects are a Must
+title: I have a side project, and so should you!
+subtitle: There's a ton of benefits to having a side-project, let's expore what they are and where to get started on your next project.
+author: Bennett Adams
+category: Projects
+---
+
+<h4>Intro</h4>
+<p>I know a lot of talented designers and developers, and every single one of them has one thing in common; they're regularly working on a side project. It doesn't matter the type of project, be it a blog, starter project or something for the neighborhood taco joint, they're all beneficial to you in many different ways.</p>
+
+<h4>What is a side project?</h4>
+<p>A side project is any sort of project that is undertaken outside of your standard work commitments. There's no real requirements, they can vary from fun and silly, all the way to a secondary job that you hope to turn into something big one day.</p>
+
+<h4>The Benefits</h4>
+<p>It's been shown that creative hobbies make people more helpful, collaborative, and creative in their job performance, so off the bat it's even possible to spin a side project as a positive to your employer! But logistics aside, employees who had creative hobbies felt more relaxed and in control outside of work.</p>
+<p>On a slightly more obvious level, a side project also helps to facilitate learning and even experience by tackling new things you wouldn't get a chance to do in your 9-5. This can in turn benefit your career, either by growing your portfolio or just by being able to say you have experience in a subject you didn't before. This portfolio and blog for example allowed me to learn Jekyll and brush up on my writing. From now on I can feel more comfortable discussing either topic in a professional setting, not to mention the indirect positives that are gained with the learning experience.</p>
+
+<h4>Where to start</h4>
+<p>The best place to start would be something that you're passionate about. If it's something that you truly care about it will keep you motivated and be that much more rewarding along the way. It doesn't make a lot of sense to spend your free time doing something that you couldn't care less about, regardless of the professional benefits.</p>
+<p>Another way to make the side project even more fun and rewarding is to include friends, or even co-workers. This will not only help bring a fresh perspective to the project, but help with motivation, two minds is always greater than one.</p>
+<h4>Get movin'!</h4>
+<p>So get out there and finally get moving on that mobile app idea you've been thinking about or writing that article on Medium you've noticed no one is talking about!</p>

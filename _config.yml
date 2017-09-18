@@ -28,7 +28,7 @@ disqus_shortname: http-bennettadams-net
 color:
   primary: 0c76f9 #0c76f9
   primary-rgb: "38,91,226" #"128,179,255"
-  secondary: f1f1f1 #f1f1f1
+  secondary: f9f9f9 #f1f1f1
   secondary-dark: 333333 #333333
 
 # Footer settings
@@ -55,7 +55,7 @@ address:
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:title/
 
 sass:
   style: compressed
