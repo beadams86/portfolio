@@ -1,25 +1,26 @@
 
 
-
 {% for post in site.categories.blog %}
     <div class="col-lg-4 col-md-6 col-12">
         <a href="{{ site.url }}{{ post.url }}" class="blog-post">
                 <img src="{{ post.img }}" class="img-fluid" alt="{{ post.alt }}">
-                <h4> {{ post.title  | strip_html | truncate:45 }}</h4>
-                <p class="mute"> {{ post.subtitle | strip_html | truncate:105 }}</p>
-                    
-            <div class="row blog-post-footer">
-                <div class="col-6">
-                    <strong>
-                        {{ post.date | date: '%B %d, %Y' }}
-                    </strong>
+                <div class="blog-post-content">
+                    <h4> {{ post.title  | strip_html | truncate:45 }}</h4>
+                    <p class="mute"> {{ post.subtitle | strip_html | truncate:125 }}</p>
+                        
+                    <div class="row blog-post-footer">
+                        <div class="col-6">
+                            <strong>
+                                {{ post.date | date: '%B %d, %Y' }}
+                            </strong>
+                        </div>
+                        <div class="col-6 text-right">
+                            <span class="badge badge-primary">
+                                {{ post.category }}
+                            </span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-6 text-right">
-                    <span class="mute">
-                        {{ post.category }}
-                    </span>
-                </div>
-            </div>
         </a>
     </div>
 {% endfor %}

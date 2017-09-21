@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Universal Style Guide
+bgcolor: 2c68fe
 modal-id: 3
 date: 2017-08-14
 img: styleguide-card.jpg

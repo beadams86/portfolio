@@ -1,9 +1,11 @@
 ---
 layout: default
 modal-id: 4
+bgcolor: 4f5563
 date: 2014-07-16
 img: registration-card.jpg
 postimg: registration-full.png
+title: Registration Redesign
 alt: Tradeshow Registration Redesign
 project-date: April 2016
 client: Start Bootstrap

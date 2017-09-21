@@ -3,7 +3,7 @@
     <section id="portfolio">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-12">
                     <h2>Portfolio</h2>
                     <hr class="hr-large"/>
                 </div>
@@ -15,7 +15,7 @@
                 {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
 
                     {% if modulo == '1' %}
-                        <div class="col-6">
+                        <div class="col-sm-6">
                             <div class="portfolio-item">
                                 <a href="#portfolioModal-{{ work.modal-id }}" class="portfolio-link" data-toggle="modal">
                                     <div class="caption">
@@ -28,7 +28,7 @@
                             </div>
                         </div>
                     {% elsif modulo == '2' %}
-                        <div class="col-6">
+                        <div class="col-sm-6">
                             <div class="portfolio-item">
                                 <a href="#portfolioModal-{{ work.modal-id }}" class="portfolio-link" data-toggle="modal">
                                     <div class="caption">
@@ -42,14 +42,20 @@
                         </div>
                     {% else %}
                         <div class="col-12">
-                            <div class="portfolio-item"> 
-                                <a href="#portfolioModal-{{ work.modal-id }}" class="portfolio-link" data-toggle="modal">
-                                    <div class="caption">
-                                        <div class="caption-content">
-                                            <i class="fa fa-search-plus fa-3x"></i>
+                            <div class="portfolio-item large-item"> 
+                                <a href="#portfolioModal-{{ work.modal-id }}" class="portfolio-link" data-toggle="modal" style="background-color:#{{ work.bgcolor }};">
+                                    <div class="row">
+                                        <div class="col-sm-7">
+                                            <div class="item-content">
+                                                <h1>{{ work.title }}</h1>
+                                                <p> {{ work.description | strip_html | truncate:155 }}</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-5 hidden-sm">
+                                            <img src="img/portfolio/{{ work.img }}" class="img-fluid" alt="{{ work.alt }}">
                                         </div>
                                     </div>
-                                    <img src="img/portfolio/{{ work.img }}" class="img-fluid" alt="{{ work.alt }}">
+
                                 </a>
                             </div>
                         </div>
