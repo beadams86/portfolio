@@ -279,6 +279,11 @@ section.success {
 .success p{
     line-height:2em;
 }
+
+.success a{
+    color:#fff;
+    text-decoration:underline;
+}
 section.success ul{
     list-style-type:none;
     text-align:right;
@@ -414,6 +419,9 @@ ul li .badge{
 #portfolio * {
     z-index: 2;
 }
+.btn{
+    border-radius:.15rem;
+}
 .btn:hover{
     transition:all 0.3s;
 }
@@ -547,6 +555,7 @@ footer .footer-below {
 .scroll-top .btn:focus, .scroll-top .btn:hover {
     outline: 0;
     color:#fff;
+    background:#333;
 }
 
 .portfolio-modal .modal-content {
